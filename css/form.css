@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+}
+
+.dropdown-content{
+    width: 260px !important;
+}
+
+.nav-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.temp {
+    height: 34px;
+    width: 50%;
+    border-radius: 2px;
+    background: #2196F3;
+    padding-left: 10px;
+    padding-top: 7px;
+    color: white;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+.temp:hover{
+    background: white;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+.film-element{
+    height: 34px;
+    background: #2196F3;
+    width: 50%;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-top: 7px;
+    color: white;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+.film-element:hover{
+    background: white;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+.list-link {
+    padding: 2px !important;
+}
+
+#s-scr {
+    position: fixed;
+    top: 0px !important;
+    z-index: 300;
+}
+
+#cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 120%;
+    height: 120%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.small-img img {
+    height: 80px;
+}
+
+.main-nav {
+    margin-bottom: 20px;
+}
+
+.p-link{
+    margin: 5px;
+}
+
+.bank-div {
+    position: relative;
+    bottom: 238px;
+    height: 0;
+}
+
+.valid-zone {
+    float: right;
+    margin-right: 5px;
+    height: 32px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.r-valid-frm {
+    float: left;
+}
+
+ .input-field input:focus + label {
+   color: #2196F3 !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #2196F3 !important;
+   box-shadow: 0 1px 0 0 #2196F3 !important
+ }
+ 
+ .home-container a:hover{
+     text-decoration: underline;
+ }
+ 
+[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:after {
+  background-color: #2196F3 !important;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:before,
+[type="radio"].with-gap:checked + label:after {
+  border: 2px solid #2196F3 !important;
+}
+
+.pagination li.active {
+  background-color: #2196F3 !important;
+}
+
+ul.dropdown-content.select-dropdown li span {
+    color: #2196F3 !important;
+}
+
+.car-title{
+    font-weight: bold !important;
+}
+
+.pay-title {
+    position: relative;
+    left: 10px !important;
+    top: 20px;
+}
